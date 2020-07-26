@@ -88,7 +88,7 @@ ${answers.license}
 ${answers.test}
 
 ## Questions
-You can view my GitHub profile here: [${answers.GitHub}](https://github.com/${answers.GitHub}) and if you have any additional questions you can email me at ${answers.email}
+You can view my GitHub profile at [${answers.GitHub}](https://github.com/${answers.GitHub}) and if you have any additional questions you can email me at ${answers.email}
 `
 ;
 }

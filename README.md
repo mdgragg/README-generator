@@ -1,8 +1,8 @@
-# 
+# README Generator
 MIT
 
 ## Description
-
+quickly create a professional README for a new project
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,7 +13,7 @@ MIT
 * [Questions](#questions)
 
 ## Installation
-
+npm install
 
 ## Usage
 
@@ -22,17 +22,10 @@ MIT
 
 
 ## License
-<<<<<<< HEAD
 MIT
 
-=======
-![github-license-image](https://img.shields.io/github/license/commonality/getting-started-inner-source.svg?style=flat-square)
-## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-## Contributing 
->>>>>>> 5a64df00d0d773b0a6fc35a05bd50f0080f923c0
 ## Tests
 
 
 ## Questions
-You can view my GitHub profile here: [mdgragg](https://github.com/mdgragg) and if you have any additional questions you can email me at contact@michaeldgragg.com
+You can view my GitHub profile at [Mdgragg](https://github.com/Mdgragg) and if you have any additional questions you can email me at contact@michaeldgragg.com
