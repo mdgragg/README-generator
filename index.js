@@ -65,7 +65,7 @@ ${answers.test}
 promptUser()
   .then(function(answers) {
     const readme = generateREADME(answers);
-    return writeFileAsync("README-new.md", readme);
+    return writeFileAsync("README.md", readme);
   })
   .then(function() {
     console.log("Successfully wrote to README.md");
