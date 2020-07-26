@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "quickly create a professional README for a new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdgragg/README-generator.git"
+  },
+  "keywords": [
+    "README",
+    "Generator"
+  ],
+  "author": "Michael Gragg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdgragg/README-generator/issues"
+  },
+  "homepage": "https://github.com/mdgragg/README-generator#readme"
+}
