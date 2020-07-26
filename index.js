@@ -27,6 +27,15 @@ function promptUser() {
       name: "usage"
       },
       {
+      type: "list",
+      message: "Enter type of license",
+      name: "license",
+      choices: [ 
+        { value: 'MIT', },
+        { value: 'GNU GPLv3',},
+      ],
+      },
+      {
       type: "input",
       message: "Enter contribution guidelines",
       name: "contribution"  
@@ -35,30 +44,51 @@ function promptUser() {
       type: "input",
       message: "Enter test instructions",
       name: "test"  
-      }
+      },
+      {
+        type: "input",
+        message: "Enter your GitHub username",
+        name: "GitHub"  
+      },
+      {
+        type: "input",
+        message: "Enter your email",
+        name: "email"  
+      } 
   ]);
 }
 function generateREADME(answers) {
 return`# ${answers.title}
+${answers.license}
+
 ## Description
 ${answers.description}
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Credits](#credits)
+* [Tests](#tests)
+* [Questions](#questions)
+
 ## Installation
 ${answers.installation}
+
 ## Usage
 ${answers.usage}
+
 ## Credits
-## License
-## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-## Contributing 
 ${answers.contribution}
+
+## License
+${answers.license}
+
 ## Tests
 ${answers.test}
+
+## Questions
+You can view my GitHub profile here: [${answers.GitHub}](https://github.com/${answers.GitHub}) and if you have any additional questions you can email me at ${answers.email}
 `
 ;
 }
