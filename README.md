@@ -14,21 +14,23 @@ A command-line application will allow for quick and easy generation of a project
 * [Questions](#questions)
 
 ## Installation
-
+```
 install npm
-
+```
 ## Usage
-demo
+![Alt Text](https://github.com/mdgragg/README-generator/blob/master/demo.gif?raw=true)
+
 
 ## Contribution
 Pull request welcome or see contact info in questions section
 
 ## License
 MIT
-For more information on the MIT license [Click Here](https://choosealicense.com/licenses/MIT/)
+For more information on the MIT license [Click Here](https://choosealicense.com/licenses/mit/)
 
 ## Tests
+```
 no
-
+```
 ## Questions
 You can view my GitHub profile at [mdgragg](https://github.com/mdgragg) and if you have any additional questions you can email me at contact@michael.com
