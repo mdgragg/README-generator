@@ -20,7 +20,7 @@ install npm
 ## Usage
 Demo below shows how application works:
 
-![Demo](https://github.com/mdgragg/README-generator/blob/master/demo.gif?raw=true width="600")
+![Demo](https://github.com/mdgragg/README-generator/blob/master/demo.gif?raw=true)
 
 
 ## Contribution
