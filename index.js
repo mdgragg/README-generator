@@ -31,9 +31,9 @@ function promptUser() {
       message: "Select type of license",
       name: "license",
       choices: [ 
-        { value: 'MIT', },
-        { value: 'GPL-3.0',},
-        { value: 'AGPL-3.0',},
+        { value: 'mit', },
+        { value: 'gpl-3.0',},
+        { value: 'agpl-3.0',},
       ],
       },
       {
