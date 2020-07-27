@@ -85,13 +85,12 @@ ${answers.usage}
 ${answers.contribution}
 
 ## License
-
 ${answers.license}
 
 For more information on the ${answers.license} license [Click Here](https://choosealicense.com/licenses/${answers.license}/)
 
 ## Tests
-``${answers.test}``
+${answers.test}
 
 ## Questions
 You can view my GitHub profile at [${answers.GitHub}](https://github.com/${answers.GitHub}) and if you have any additional questions you can email me at ${answers.email}
