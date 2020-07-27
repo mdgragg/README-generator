@@ -21,6 +21,15 @@ Install npm
 First, requires inquirer, fs, and util:
 
 ```
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+```
+
+
+
+Then lists prompt types asking helping userexplain project and fill out the readme file:
+```
 function promptUser() {
   return inquirer.prompt([
     {
@@ -33,59 +42,30 @@ function promptUser() {
       message: "Enter a description of your project",
       name: "description"
       },
-      {
-      type: "input",
-      message: "Enter any installation instructions",
-      name: "installation"
-      },
-      {
-      type: "input",
-      message: "Provide instructions and examples for use. Include screenshots as needed.",
-      name: "usage"
-      },
-      {
-      type: "list",
-      message: "Select type of license",
-      name: "license",
-      choices: [ 
-        { value: 'MIT', },
-        { value: 'GPL-3.0',},
-        { value: 'AGPL-3.0',},
-      ],
-      },
-      {
-      type: "input",
-      message: "How can people help with this project?",
-      name: "contribution"  
-      },
-      {
-      type: "input",
-      message: "Are there test instructions for this project?",
-      name: "test"  
-      },
-      {
-      type: "input",
-      message: "Enter your GitHub username",
-      name: "GitHub"  
-      },
-      {
-      type: "input",
-      message: "Enter your email",
-      name: "email"  
-      } 
-  ]);
-}
+
 ```
 
-<img src="https://raw.githubusercontent.com/mdgragg/README-generator/master/images/ScreenShot1.png" width="300" />
-
-Then lists prompt types asking helping userexplain project and fill out the readme file:
-
-<img src="https://raw.githubusercontent.com/mdgragg/README-generator/master/images/ScreenShot2.png" width="500" />
+Then a function to
+``` 
+function generateREADME(answers) {
+return`# ${answers.title}
+```
 
 Finally,  create and write readme file from users answers:
+```
+promptUser()
+  .then(function(answers) {
+    const readme = generateREADME(answers);
+    return writeFileAsync("README.md", readme);
+  })
+  .then(function() {
+    console.log("Successfully wrote to README.md");
+  })
+  .catch(function(err) {
+    console.log(err);
+  });
+  ```
 
-<img src="https://raw.githubusercontent.com/mdgragg/README-generator/master/images/ScreenShot3.png" width="300" />
 
 
 ## Credits
@@ -95,7 +75,9 @@ Finally,  create and write readme file from users answers:
 MIT
 
 ## Tests
-
+```
+no
+```
 
 ## Questions
 You can view my GitHub profile at [](https://github.com/) and if you have any additional questions you can email me at 
