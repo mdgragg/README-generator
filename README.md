@@ -18,7 +18,9 @@ A command-line application will allow for quick and easy generation of a project
 install npm
 ```
 ## Usage
-![Alt Text](https://github.com/mdgragg/README-generator/blob/master/demo.gif?raw=true)
+Demo below shows how application works:
+
+![Demo](https://github.com/mdgragg/README-generator/blob/master/demo.gif?raw=true | width=700)
 
 
 ## Contribution
