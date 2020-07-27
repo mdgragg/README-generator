@@ -1,8 +1,9 @@
-# README Generator
-MIT
+# 
+
+![license shield](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Description
-quickly create a professional README for a new project
+
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,7 +14,8 @@ quickly create a professional README for a new project
 * [Questions](#questions)
 
 ## Installation
-npm install
+
+Install npm
 
 ## Usage
 
@@ -28,4 +30,4 @@ MIT
 
 
 ## Questions
-You can view my GitHub profile at [Mdgragg](https://github.com/Mdgragg) and if you have any additional questions you can email me at contact@michaeldgragg.com
+You can view my GitHub profile at [](https://github.com/) and if you have any additional questions you can email me at 
