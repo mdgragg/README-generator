@@ -35,4 +35,4 @@ For more information on the MIT license [Click Here](https://choosealicense.com/
 no
 ```
 ## Questions
-You can view my GitHub profile at [mdgragg](https://github.com/mdgragg) and if you have any additional questions you can email me at contact@michael.com
+You can view my GitHub profile at [mdgragg](https://github.com/mdgragg) and if you have any additional questions you can email me at contact@michaeldgragg.com
