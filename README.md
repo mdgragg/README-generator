@@ -20,7 +20,7 @@ Install npm
 ## Usage
 First, requires inquirer, fs, and util:
 
-`function promptUser() {
+``function promptUser() {
   return inquirer.prompt([
     {
       type: "input",
@@ -73,7 +73,7 @@ First, requires inquirer, fs, and util:
       name: "email"  
       } 
   ]);
-}`
+}``
 
 <img src="https://raw.githubusercontent.com/mdgragg/README-generator/master/images/ScreenShot1.png" width="300" />
 
