@@ -38,12 +38,12 @@ function promptUser() {
       },
       {
       type: "input",
-      message: "Enter any ",
+      message: "How can people help with this project?",
       name: "contribution"  
       },
       {
       type: "input",
-      message: "Enter test ",
+      message: "Are there test instructions for this project?",
       name: "test"  
       },
       {
@@ -70,7 +70,7 @@ ${answers.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Credits](#credits)
+* [contribution](#contribution)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -81,12 +81,11 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 
-## Credits
+## Contribution
 ${answers.contribution}
 
 ## License
 ${answers.license}
-
 For more information on the ${answers.license} license [Click Here](https://choosealicense.com/licenses/${answers.license}/)
 
 ## Tests
